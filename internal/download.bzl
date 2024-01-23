@@ -61,6 +61,8 @@ terraform_binary(
     version = "{version}",
     visibility = ["//visibility:public"],
 )
+
+exports_files(["terraform/terraform"])
 """.format(
     version = version,
 ),
